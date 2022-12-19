@@ -1,6 +1,7 @@
 Dokumentacja kodu:
 
 1. Opis ogólny:
+
   Kod przedstawia aplikację wyświetlającą mecze piłkarskie oraz ich statystyki. Aplikacja składa się z dwóch głównych komponentów: Matches oraz Stats. Komponent Matches odpowiada za wyświetlanie pojedynczego meczu oraz pozwala na edycję wyników meczu, natomiast komponent Stats wyświetla statystyki dla każdej z grup meczów. Dane meczów są przechowywane w stanie komponentu App i są pobierane z pliku allmatches lub z localStorage, jeśli istnieją tam dane.
 
 2. Importy:
@@ -20,6 +21,7 @@ Dokumentacja kodu:
   - Hook useEffect, który jest wywoływany przy każdej zmianie stanu matches i umożliwia zapisanie danych meczów do localStorage.
 
   b. Komponent App renderuje następujące elementy:
+  
     - Nagłówek z tekstem "Mecze"
     - Kontener z komponentami Matches dla każdego meczu z listy matches. Każdy komponent Matches otrzymuje następujące propsy:
     - match - obiekt meczu
@@ -36,11 +38,13 @@ Dokumentacja kodu:
 4. Komponent Matches:
 
   a. Komponent Matches odpowiada za wyświetlanie pojedynczego meczu oraz umożliwienie edycji wyniku meczu. Składa się z następujących elementów:
+  
     - Nagłówek z nazwami drużyn oraz wynikiem meczu
     - Formularz z polami do edycji wyniku meczu, jeśli indeks meczu jest równy editingIndex
     - Przycisk "Zapisz", który jest wyświetlany tylko wtedy, gdy indeks meczu jest równy editingIndex
 
   b. Komponent Matches otrzymuje następujące propsy:
+  
     - match - obiekt meczu
     - index - indeks meczu w liście matches
     - editingIndex - indeks meczu, który jest obecnie edytowany
@@ -50,6 +54,7 @@ Dokumentacja kodu:
     - Wszystkie te propsy są przekazywane do komponentu Matches przez komponent App.
 
   c. Komponent Matches renderuje następujące elementy:
+  
     - Nagłówek z nazwami drużyn oraz wynikiem meczu. Nagłówek jest klikalny i wywołuje funkcję handleScoreClick przekazaną jako prop.
     - Formularz z polami do edycji wyniku meczu, jeśli indeks meczu jest równy editingIndex. Pola są wyświetlane tylko wtedy, gdy indeks meczu jest równy editingIndex. Każde pole jest obsługiwane przez funkcję handleScoreChange przekazaną jako prop.
     - Przycisk "Zapisz", który jest wyświetlany tylko wtedy, gdy indeks meczu jest równy editingIndex. Przycisk wywołuje funkcję setEditingIndex przekazaną jako prop i ustawia wartość editingIndex na null.
