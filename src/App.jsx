@@ -29,6 +29,7 @@ const App = () => {
 
   return (
     <div className="app">
+      <h1>Mundial 2022</h1>
       <div className="container">
         <h2>Mecze</h2>
         <div className="matches-container">

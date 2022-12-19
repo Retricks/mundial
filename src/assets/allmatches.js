@@ -5,7 +5,9 @@ export default [
     awayTeam: 'Ekwador',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'QA',
+    awayFlag: 'EC'
 },
 {
     group: 'B',
@@ -13,7 +15,9 @@ export default [
     awayTeam: 'Iran',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'GB-ENG',
+    awayFlag: 'IR'
 },
 {
     group: 'A',
@@ -21,7 +25,9 @@ export default [
     awayTeam: 'Holandia',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'SN',
+    awayFlag: 'NL'
 },
 {
     group: 'B',
@@ -29,7 +35,9 @@ export default [
     awayTeam: 'Walia',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'US',
+    awayFlag: 'GB-WLS'
 },
 {
     group: 'C',
@@ -37,7 +45,9 @@ export default [
     awayTeam: 'Arabia Saudyjska',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'AR',
+    awayFlag: 'SA'
 },
 {
     group: 'D',
@@ -45,7 +55,9 @@ export default [
     awayTeam: 'Tunezja',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'DK',
+    awayFlag: 'TN'
 },
 {
     group: 'C',
@@ -53,7 +65,9 @@ export default [
     awayTeam: 'Polska',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'MX',
+    awayFlag: 'PL'
 },
 {
     group: 'D',
@@ -61,7 +75,9 @@ export default [
     awayTeam: 'Australia',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'FR',
+    awayFlag: 'AU'
 },
 {
     group: 'F',
@@ -69,7 +85,9 @@ export default [
     awayTeam: 'Chorwacja',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'MA',
+    awayFlag: 'HR'
 },
 {
     group: 'E',
@@ -77,7 +95,9 @@ export default [
     awayTeam: 'Japonia',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'DE',
+    awayFlag: 'JP'
 },
 {
     group: 'E',
@@ -85,7 +105,9 @@ export default [
     awayTeam: 'Kostaryka',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'ES',
+    awayFlag: 'CRI'
 },
 {
     group: 'F',
@@ -93,7 +115,9 @@ export default [
     awayTeam: 'Kanada',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'BE',
+    awayFlag: 'CA'
 },
 {
     group: 'G',
@@ -101,7 +125,9 @@ export default [
     awayTeam: 'Kamerun',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'CH',
+    awayFlag: 'CM'
 },
 {
     group: 'H',
@@ -109,7 +135,9 @@ export default [
     awayTeam: 'Korea Południowa',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'UY',
+    awayFlag: 'KR'
 },
 {
     group: 'H',
@@ -117,7 +145,9 @@ export default [
     awayTeam: 'Ghana',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'PT',
+    awayFlag: 'GH'
 },
 {
     group: 'G',
@@ -125,7 +155,9 @@ export default [
     awayTeam: 'Serbia',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'BR',
+    awayFlag: 'RS'
 },
 {
     group: 'B',
@@ -133,7 +165,9 @@ export default [
     awayTeam: 'Iran',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'GB-WLS',
+    awayFlag: 'IR'
 },
 {
     group: 'A',
@@ -141,7 +175,9 @@ export default [
     awayTeam: 'Senegal',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'QA',
+    awayFlag: 'SN'
 },
 {
     group: 'A',
@@ -149,7 +185,9 @@ export default [
     awayTeam: 'Ekwador',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'NL',
+    awayFlag: 'EC'
 },
 {
     group: 'B',
@@ -157,7 +195,9 @@ export default [
     awayTeam: 'USA',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'GB-ENG',
+    awayFlag: 'US'
 },
 {
     group: 'D',
@@ -165,7 +205,9 @@ export default [
     awayTeam: 'Australia',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'TN',
+    awayFlag: 'FR'
 },
 {
     group: 'C',
@@ -173,7 +215,9 @@ export default [
     awayTeam: 'Arabia Saudyjska',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'PL',
+    awayFlag: 'SA'
 },
 {
     group: 'D',
@@ -181,7 +225,9 @@ export default [
     awayTeam: 'Dania',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'FR',
+    awayFlag: 'DK'
 },
 {
     group: 'C',
@@ -189,7 +235,9 @@ export default [
     awayTeam: 'Meksyk',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'AR',
+    awayFlag: 'MX'
 },
 {
     group: 'E',
@@ -197,7 +245,9 @@ export default [
     awayTeam: 'Kostaryka',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'JP',
+    awayFlag: 'CRI'
 },
 {
     group: 'F',
@@ -205,7 +255,9 @@ export default [
     awayTeam: 'Maroko',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'BE',
+    awayFlag: 'MA'
 },
 {
     group: 'F',
@@ -213,7 +265,9 @@ export default [
     awayTeam: 'Kanada',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'HR',
+    awayFlag: 'CA'
 },
 {
     group: 'E',
@@ -221,7 +275,9 @@ export default [
     awayTeam: 'Niemcy',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'ES',
+    awayFlag: 'DE'
 },
 {
     group: 'G',
@@ -229,7 +285,9 @@ export default [
     awayTeam: 'Serbia',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'CM',
+    awayFlag: 'RS'
 },
 {
     group: 'H',
@@ -237,7 +295,9 @@ export default [
     awayTeam: 'Ghana',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'KR',
+    awayFlag: 'GH'
 },
 {
     group: 'G',
@@ -245,7 +305,9 @@ export default [
     awayTeam: 'Szwajcaria',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'BR',
+    awayFlag: 'CH'
 },
 {
     group: 'H',
@@ -253,7 +315,9 @@ export default [
     awayTeam: 'Urugwaj',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'UY',
+    awayFlag: 'PT'
 },
 {
     group: 'A',
@@ -261,7 +325,9 @@ export default [
     awayTeam: 'Senegal',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'EC',
+    awayFlag: 'SN'
 },
 {
     group: 'A',
@@ -269,7 +335,9 @@ export default [
     awayTeam: 'Katar',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'NL',
+    awayFlag: 'QA'
 },
 {
     group: 'B',
@@ -277,7 +345,9 @@ export default [
     awayTeam: 'USA',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'IR',
+    awayFlag: 'US'
 },
 {
     group: 'B',
@@ -285,7 +355,9 @@ export default [
     awayTeam: 'Anglia',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'GB-WLS',
+    awayFlag: 'GB-ENG'
 },
 {
     group: 'D',
@@ -293,7 +365,9 @@ export default [
     awayTeam: 'Francja',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'TN',
+    awayFlag: 'FR'
 },
 {
     group: 'D',
@@ -301,7 +375,9 @@ export default [
     awayTeam: 'Dania',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'AU',
+    awayFlag: 'DK'
 },
 {
     group: 'C',
@@ -309,7 +385,9 @@ export default [
     awayTeam: 'Argentyna',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'PL',
+    awayFlag: 'AR'
 },
 {
     group: 'C',
@@ -317,7 +395,9 @@ export default [
     awayTeam: 'Meksyk',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'SA',
+    awayFlag: 'MX'
 },
 {
     group: 'F',
@@ -325,7 +405,9 @@ export default [
     awayTeam: 'Belgia',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'HR',
+    awayFlag: 'BE'
 },
 {
     group: 'F',
@@ -333,7 +415,9 @@ export default [
     awayTeam: 'Maroko',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'CA',
+    awayFlag: 'MA'
 },
 {
     group: 'E',
@@ -341,7 +425,9 @@ export default [
     awayTeam: 'Hiszpania',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'JP',
+    awayFlag: 'ES'
 },
 {
     group: 'E',
@@ -349,7 +435,9 @@ export default [
     awayTeam: 'Niemcy',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'CRI',
+    awayFlag: 'DE'
 },
 {
     group: 'H',
@@ -357,7 +445,9 @@ export default [
     awayTeam: 'Portugalia',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'KR',
+    awayFlag: 'PT'
 },
 {
     group: 'H',
@@ -365,7 +455,9 @@ export default [
     awayTeam: 'Urugwaj',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'GH',
+    awayFlag: 'UY'
 },
 {
     group: 'G',
@@ -373,7 +465,9 @@ export default [
     awayTeam: 'Szwajcaria',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'RS',
+    awayFlag: 'CH'
 },
 {
     group: 'G',
@@ -381,6 +475,8 @@ export default [
     awayTeam: 'Brazylia',
     homeScore: 0,
     awayScore: 0,
-    played: false
+    played: false,
+    homeFlag: 'CM',
+    awayFlag: 'BR'
 }
 ]
