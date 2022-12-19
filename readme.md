@@ -34,6 +34,7 @@ Dokumentacja kodu:
     - matches - lista meczów
 
 4. Komponent Matches:
+
   a. Komponent Matches odpowiada za wyświetlanie pojedynczego meczu oraz umożliwienie edycji wyniku meczu. Składa się z następujących elementów:
     - Nagłówek z nazwami drużyn oraz wynikiem meczu
     - Formularz z polami do edycji wyniku meczu, jeśli indeks meczu jest równy editingIndex
@@ -54,6 +55,7 @@ Dokumentacja kodu:
     - Przycisk "Zapisz", który jest wyświetlany tylko wtedy, gdy indeks meczu jest równy editingIndex. Przycisk wywołuje funkcję setEditingIndex przekazaną jako prop i ustawia wartość editingIndex na null.
 
 5. Komponent Stats:
+
   a. Komponent Stats odpowiada za wyświetlanie statystyk dla danej grupy meczów. Składa się z następujących elementów:
   - Nagłówek z nazwą grupy meczów
   - -Tabela z danymi statystyk dla każdej drużyny w grupie: liczba rozegranych meczów, zdobytych punktów, strzelonych i straconych bramek
@@ -67,4 +69,4 @@ Dokumentacja kodu:
   - Tabela z danymi statystyk dla każdej drużyny w grupie. Statystyki są obliczane na podstawie meczów z listy matches, które zostały rozegrane w grupie o nazwie group.
 
 6. Informacje o autorze:
-  a. Kamil Langer
+  - Kamil Langer
