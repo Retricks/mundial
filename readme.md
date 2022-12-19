@@ -10,7 +10,8 @@ Kod przedstawia aplikację wyświetlającą mecze piłkarskie oraz ich statystyk
 - Stats: komponent odpowiedzialny za wyświetlanie statystyk
 - Matches: komponent odpowiedzialny za wyświetlanie pojedynczego meczu i edycję jego wyników
 
-3. Komponent App: 
+3. Komponent App:
+
 a. Komponent App jest głównym komponentem aplikacji i zarządza danymi meczów oraz wyświetla komponenty Matches i Stats. Komponent składa się z następujących elementów:
 - Zmienna matches przechowująca dane meczów. Domyślnie pobierana jest z localStorage, jeśli są tam dostępne, w przeciwnym razie pobierana jest z pliku allmatches.
 - Zmienna editingIndex przechowująca indeks meczu, który jest obecnie edytowany. Domyślnie ustawiona na null.
