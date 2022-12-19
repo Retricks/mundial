@@ -5,6 +5,7 @@ Dokumentacja kodu:
   Kod przedstawia aplikację wyświetlającą mecze piłkarskie oraz ich statystyki. Aplikacja składa się z dwóch głównych komponentów: Matches oraz Stats. Komponent Matches odpowiada za wyświetlanie pojedynczego meczu oraz pozwala na edycję wyników meczu, natomiast komponent Stats wyświetla statystyki dla każdej z grup meczów. Dane meczów są przechowywane w stanie komponentu App i są pobierane z pliku allmatches lub z localStorage, jeśli istnieją tam dane.
 
 2. Importy:
+
   - React: biblioteka React, używana do tworzenia interfejsu użytkownika za pomocą komponentów
   - useState i useEffect: hooki React, używane do zarządzania stanem i efektami w komponentach
   - allmatches: plik z danymi wszystkich meczów
@@ -14,6 +15,7 @@ Dokumentacja kodu:
 3. Komponent App:
 
   a. Komponent App jest głównym komponentem aplikacji i zarządza danymi meczów oraz wyświetla komponenty Matches i Stats. Komponent składa się z następujących elementów:
+  
   - Zmienna matches przechowująca dane meczów. Domyślnie pobierana jest z localStorage, jeśli są tam dostępne, w przeciwnym razie pobierana jest z pliku allmatches.
   - Zmienna editingIndex przechowująca indeks meczu, który jest obecnie edytowany. Domyślnie ustawiona na null.
   - Funkcja handleScoreChange, która jest wywoływana podczas zmiany wyniku meczu. Funkcja aktualizuje wynik meczu i ustawia flagę "played" na true.
@@ -62,14 +64,17 @@ Dokumentacja kodu:
 5. Komponent Stats:
 
   a. Komponent Stats odpowiada za wyświetlanie statystyk dla danej grupy meczów. Składa się z następujących elementów:
+  
   - Nagłówek z nazwą grupy meczów
   - -Tabela z danymi statystyk dla każdej drużyny w grupie: liczba rozegranych meczów, zdobytych punktów, strzelonych i straconych bramek
 
   b. Komponent Stats otrzymuje następujące propsy:
+  
   - group - nazwa grupy meczów
   - matches - lista meczów
 
   c. Komponent Stats renderuje następujące elementy:
+  
   - Nagłówek z nazwą grupy meczów
   - Tabela z danymi statystyk dla każdej drużyny w grupie. Statystyki są obliczane na podstawie meczów z listy matches, które zostały rozegrane w grupie o nazwie group.
 
