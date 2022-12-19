@@ -4,11 +4,11 @@ Dokumentacja kodu:
 Kod przedstawia aplikację wyświetlającą mecze piłkarskie oraz ich statystyki. Aplikacja składa się z dwóch głównych komponentów: Matches oraz Stats. Komponent Matches odpowiada za wyświetlanie pojedynczego meczu oraz pozwala na edycję wyników meczu, natomiast komponent Stats wyświetla statystyki dla każdej z grup meczów. Dane meczów są przechowywane w stanie komponentu App i są pobierane z pliku allmatches lub z localStorage, jeśli istnieją tam dane.
 
 2. Importy:
-a. React: biblioteka React, używana do tworzenia interfejsu użytkownika za pomocą komponentów
-b. useState i useEffect: hooki React, używane do zarządzania stanem i efektami w komponentach
-c. allmatches: plik z danymi wszystkich meczów
-d. Stats: komponent odpowiedzialny za wyświetlanie statystyk
-e. Matches: komponent odpowiedzialny za wyświetlanie pojedynczego meczu i edycję jego wyników
+- React: biblioteka React, używana do tworzenia interfejsu użytkownika za pomocą komponentów
+- useState i useEffect: hooki React, używane do zarządzania stanem i efektami w komponentach
+- allmatches: plik z danymi wszystkich meczów
+- Stats: komponent odpowiedzialny za wyświetlanie statystyk
+- Matches: komponent odpowiedzialny za wyświetlanie pojedynczego meczu i edycję jego wyników
 
 3. Komponent App:
 a. Komponent App jest głównym komponentem aplikacji i zarządza danymi meczów oraz wyświetla komponenty Matches i Stats. Komponent składa się z następujących elementów:
